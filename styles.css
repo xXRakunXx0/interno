@@ -1,0 +1,49 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.spaceBetween{
+    justify-content: space-between;
+}
+
+.alignCenter{
+    align-items: center;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+
+/* HEADER */
+.logo{
+    width: 200px;
+}
+
+.menu{
+    width: 30%;
+}
+
+.top20{
+    margin-top: 20px;
+}
+
+/* SECTION HERO */
+.hero{
+    background-image: url(assets/Banner.jpg);
+    height: 100vh;
+}
+
+
