@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +7,44 @@
     list-style: none;
 }
 
+.btn {
+    font-family: "Jost", sans-serif;
+    display: inline-block;                 
+    padding: 10px 20px;                    
+    text-decoration: none;                 
+    margin: 40px 0; 
+    background-color: black;
+    color: white;
+    border-radius: 16px;                     
+}
+
 .flex{
     display: flex;
     flex-wrap: wrap;
 }
 
+h1{
+    font-size: 85px;
+    width: 75%;
+}
+
+h2{
+    font-family: "DM Serif Display", serif;
+}
+
+h3{
+    font-size: 25px;
+    width: 50px;
+}
+
+p{
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+}
+
 .spaceBetween{
     justify-content: space-between;
+    
 }
 
 .alignCenter{
@@ -23,8 +54,8 @@
 .container{
     max-width: 1000px;
     margin: auto;
+    
 }
-
 
 
 /* HEADER */
@@ -37,13 +68,37 @@
 }
 
 .top20{
-    margin-top: 20px;
+    margin: 20px;
+}
+
+.top100{
+    margin-top: 100px;
+    
+}
+
+.box{
+    width: 30%;
+    display: inline-block;
 }
 
 /* SECTION HERO */
 .hero{
     background-image: url(assets/Banner.jpg);
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0 0 0 200px;
+    padding: 100px;
 }
+
+.width48{
+    width: 48%;
+}
+
+.imgDevis{
+    border-radius: 0 100px;
+
+}
+
 
 
