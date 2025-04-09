@@ -1,4 +1,10 @@
+
+/* Importation de la police "Inter" depuis Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* -------- RESET CSS -------- */
+/* Réinitialise le box model pour tous les éléments, 
+   et supprime les marges et paddings par défaut */
 * {
     margin: 0;
     padding: 0;
@@ -6,40 +12,10 @@
     text-decoration: none;
     list-style: none;
 }
-
-.btn {
-    font-family: "Jost", sans-serif;
-    display: inline-block;                 
-    padding: 10px 20px;                    
-    text-decoration: none;                 
-    margin: 40px 0; 
-    background-color: black;
-    color: white;
-    border-radius: 16px;                     
-}
-
+/* ------ Flex ------ */
 .flex{
     display: flex;
     flex-wrap: wrap;
-}
-
-h1{
-    font-size: 85px;
-    width: 75%;
-}
-
-h2{
-    font-family: "DM Serif Display", serif;
-}
-
-h3{
-    font-size: 25px;
-    width: 50px;
-}
-
-p{
-    font-family: "Jost", sans-serif;
-    font-size: 22px;
 }
 
 .spaceBetween{
@@ -47,11 +23,7 @@ p{
     
 }
 
-.alignCenter{
-    align-items: center;
-}
-
-.container{
+.container{/* ces une classe qui contient */
     max-width: 1000px;
     margin: auto;
     
@@ -75,11 +47,88 @@ p{
     margin-top: 100px;
     
 }
-
+.ptb64{
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
 .box{
-    width: 30%;
+    width: 31%;
     display: inline-block;
 }
+
+/* Style des liens au survol */
+a:hover {
+    color: #dcb996;         /* Change en turquoise au survol */
+}
+
+/* -------- BOUTONS -------- */
+.btn {
+    font-family: "Jost", sans-serif;
+    display: inline-block;                 
+    padding: 26px 31px;                    
+    text-decoration: none;                 
+    margin: 40px 0; 
+    background-color: black;
+    color: white;
+    border-radius: 18px;                     
+}
+
+
+
+
+h1{
+    font-size: 85px;
+    width: 75%;
+}
+
+h2{
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+}
+
+h3{
+    font-family: "DM Serif Display", serif;
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+p{
+    font-family: "Jost", sans-serif;
+    font-size: 22px;
+}
+
+
+
+.alignCenter{
+    align-items: center;
+}
+
+.btnCall{
+    background-color: #e8ccaf;
+    border-radius: 60px;
+    padding: 8px;
+}
+
+.Gras{
+    font-weight: bold;
+}
+
+.carte{
+    background-color: white;
+    border-radius: 16px;
+    padding: 5px;
+}
+
+.bgcS{
+    background-color: #dcb996;
+}
+
+.imgUser{
+    margin-right: 16px;
+}
+
+
 
 /* SECTION HERO */
 .hero{
@@ -96,9 +145,8 @@ p{
 }
 
 .imgDevis{
-    border-radius: 0 100px;
+    border-radius: 0 326px 0 123px;
 
 }
-
 
 
