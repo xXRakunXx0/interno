@@ -29,6 +29,10 @@
     
 }
 
+.alignCenter{
+    align-items: center;
+}
+/*###########################################*/
 
 /* HEADER */
 .logo{
@@ -38,9 +42,14 @@
 .menu{
     width: 30%;
 }
-
+/*###############*/
+/* MARGIN/PADDING */
 .top20{
-    margin: 20px;
+    margin-top: 20px;
+}
+
+.top60{
+    margin-top: 60px;
 }
 
 .top100{
@@ -51,14 +60,23 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
+/*########################*/
+
+/* WIDTH */
+.width48{
+    width: 48%;
+}
+
 .box{
     width: 31%;
     display: inline-block;
 }
+/* ######################## */
+
 
 /* Style des liens au survol */
 a:hover {
-    color: #dcb996;         /* Change en turquoise au survol */
+    color: #ffffff;         /* Change en turquoise au survol */
 }
 
 /* -------- BOUTONS -------- */
@@ -73,9 +91,26 @@ a:hover {
     border-radius: 18px;                     
 }
 
+.btnCall{
+    background-color: #e8ccaf;
+    border-radius: 60px;
+    padding: 8px;
+}
+
+.btnFleche{
+    background-color: #e8ccaf;
+    border-radius: 60px;
+    width: 64px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+}
+/*############################*/
 
 
-
+/* --- TITRE ---*/
 h1{
     font-size: 85px;
     width: 75%;
@@ -83,32 +118,66 @@ h1{
 
 h2{
     font-family: "DM Serif Display", serif;
-    font-size: 50px;
+    
 }
 
 h3{
     font-family: "DM Serif Display", serif;
-    font-size: 50px;
-    text-align: center;
+    font-size: 26px;
     
+    
+}
+
+
+.textCenter{
+    text-align: center;
 }
 
 p{
     font-family: "Jost", sans-serif;
     font-size: 22px;
 }
+/*##########################################*/
 
+/* IMAGE */
 
-
-.alignCenter{
-    align-items: center;
+.imgUser{
+    margin-right: 16px;
 }
 
-.btnCall{
-    background-color: #e8ccaf;
-    border-radius: 60px;
-    padding: 8px;
+.imgDevis{
+    border-radius: 0 326px 0 123px;
+
 }
+
+/* LES 4 IMAGE */
+
+.imgP1{
+    border-radius:  0 90px 0 0;
+    width: 100%;
+}
+
+.imgP2{
+    border-radius:  90px 0 0 0;
+    width: 100%;
+}
+
+.imgP3{
+    border-radius: 0 0 90px 0;
+    width: 100%;
+}
+
+.imgP4{
+     border-radius: 0 0 0 90px;
+    width: 100%;
+}
+
+.imgflèche{
+    padding: 30px;
+}
+/*##################################*/
+
+
 
 .Gras{
     font-weight: bold;
@@ -119,14 +188,21 @@ p{
     border-radius: 16px;
     padding: 5px;
 }
-
+/* BACKGROUNCOLOR */
 .bgcS{
-    background-color: #dcb996;
+    background-color: #F4F0EC;
 }
 
-.imgUser{
-    margin-right: 16px;
+.bgcinput{
+    background-color: #000000;
+    color: white;
 }
+
+.brinput{
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+/*###############################*/
 
 
 
@@ -140,13 +216,11 @@ p{
     padding: 100px;
 }
 
-.width48{
-    width: 48%;
+
+
+
+
+
+.reseaux a{
+    margin-right: 16px;
 }
-
-.imgDevis{
-    border-radius: 0 326px 0 123px;
-
-}
-
-
